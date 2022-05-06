@@ -1,3 +1,3 @@
 # MECA482-Furuta_Pendulum
 
-<Header> <b> Introduction </b> </Header>
+<Header1> <b> Introduction </b> </Header1>
