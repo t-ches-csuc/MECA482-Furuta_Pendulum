@@ -9,9 +9,19 @@
   </p>
   
   <Header> <b> Mathematical Model </b> </Header>
-  <p> </p>
+  <p>
+    The system is modeled as a 2 DOF system. One rotation about the axis of the motor and one rotation about the axis of the arm which the pendulum rotates around. A
+    system was developed which was non-linear. Using state-space representation the final matricies were found to be:
+    [Super hot matrices go here]
+    Using computational solvers the poles of the system can be found to be: 
+    [POLES]
+    As shown in the graph below, the system is a stable system as modeled in this simulation. Adding in real variables such as friction may move the poles closer 
+    to the right and thus closer to instability.
+  </p>
   <Header> <b> MATLAB Implementation </b> </Header>
   <p> </p>
   <Header> <b> Simulink Integration and Simulation </b> </Header>
+  <p> </p>
+  <Header> <b> Conclusion </b> </Header>
   <p> </p>
 </body>
