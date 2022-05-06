@@ -1,3 +1,3 @@
-# MECA482-Futura_Pendulum
+# MECA482-Furuta_Pendulum
 
 <Header> Introduction </Header>
