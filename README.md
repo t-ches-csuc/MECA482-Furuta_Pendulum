@@ -16,8 +16,8 @@
     [Super hot matrices go here]
     </p>
     Using computational solvers the poles of the system can be found to be:
-    <p>
-    [POLES]
+    <p><br>
+    [POLES graph here]
     </p>
     As shown in the graph below, the system is a stable system as modeled in this simulation. Adding in real variables such as friction may move the poles closer 
     to the right and thus closer to instability.
