@@ -23,9 +23,15 @@
     to the right and thus closer to instability.
   </p>
   <Header> <b> MATLAB Implementation </b> </Header>
-  <p> </p>
+  <p> 
+    The MATLAB implementation developed by Vikash Gupta uses the mathematical model stated previously and the calculated poles to produce the useful variables for the
+    Simulink model. System variables are input in the first lines and used to compute the equation of motion for a particular system. Notably, the MATLAB code neglects 
+    the amplitude of the simulated sinusoidal input. This input was subsequently defined and included in the system as an amplidtued of 0.1.
+  </p>
   <Header> <b> Simulink Integration and Simulation </b> </Header>
-  <p> </p>
+  <p> 
+    
+  </p>
   <Header> <b> Conclusion </b> </Header>
   <p> </p>
 </body>
