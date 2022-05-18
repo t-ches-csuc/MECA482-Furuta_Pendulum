@@ -8,6 +8,23 @@
     review of a developed full state feed back control model created in Simulink [1]. The model neglects friction, when considering the mass relative to the fricton of       the bearings in the pendulum it is a good assumtion that the coefficient of friction is too small to significantly impact the model. 
   </p>
   
+  <header> <b> Operational and Logical Viewpoints </b> </Header>
+  
+   <p align="center">
+  <img width="550" alt="operationalViewpoint" src="Functional Viewpoint.PNG">
+  
+  <p align="center">
+   <b>Figure 1</b>: Operational viewpoint for the inertia wheel pendulum.
+  <p>
+  
+  <p align="center">
+   <img width="600" alt="logicalViewpoint" src="Operational Viewpoint.PNG">
+  <p>
+  
+  <p align="center">
+   <b>Figure 2</b>: Logical/functional viewpoint for the inertia wheel pendulum.
+  <p>
+  
   <Header> <b> Mathematical Model </b> </Header>
   <p>
     The system is modeled as a 2 DOF system. One rotation about the axis of the motor and one rotation about the axis of the arm which the pendulum rotates around. A
