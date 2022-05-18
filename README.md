@@ -11,7 +11,7 @@
   <header> <b> Operational and Logical Viewpoints </b> </Header>
   
    <p align="center">
-  <img width="550" alt="operationalViewpoint" src="Functional Viewpoint.PNG">
+  <img width="750" alt="operationalViewpoint" src="Functional Viewpoint.PNG">
   
   <p align="center">
    <b>Figure 1</b>: Operational viewpoint for the inertia wheel pendulum.
