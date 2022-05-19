@@ -325,4 +325,6 @@ w = 30;
 
 [1] Vikash Gupta (2019). Full State Feedback of Furuta Pendulum (https://www.mathworks.com/matlabcentral/fileexchange/25585-full-state-feedback-of-furuta-pendulum), MATLAB Central File Exchange. Retrieved May 19, 2022.
 
-[2] Hernández-Guzmán Victor Manuel and Silva-Ortigoza Ramón, [Automatic control with experiments](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/references/RWP_Paper.pdf). Cham, Switzerland: Springer, 2019. 
+[2] Quanser INC, Rotary Pendulum Workbook. Ontario, Canada (2011), Quanser INC. 
+
+[3]
