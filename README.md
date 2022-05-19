@@ -60,7 +60,79 @@ The following table depicts definitions based on the above schematic for system 
 </p>
 
 **2. Equation of Motion**
+Equations of motion for the pendulum system are derived using the Lagrange method. Two equations of motion are required for the system, one that describes the motion of the arm and another that describes the motion of the pendulum with respect to motor voltage.
 
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ1.PNG?raw=true">
+</p>
+
+In equation one, the variable qi is a generalized coordinate. In this system, its value and the value of its derivative are given by the following arrays.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ2.PNG?raw=true">
+</p>
+
+Substituting the values of the generalized coordinates into equation one gives the Euler-Lagrange equations for the system.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ3.PNG?raw=true">
+</p>
+
+The Lagrangian of the system is described by the following equation, where T is the total kinetic energy of the system and V is the total potential energy of the system.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ4.PNG?raw=true">
+</p>
+
+The generalized forces acting on the rotary arm and the pendulum are torque and viscous damping (friction) and torque. They are given by the equations below.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ5.PNG?raw=true">
+</p>
+
+The torque of the motor is described by the following equation.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ6.PNG?raw=true">
+</p>
+
+Given that, the non-linear equations of motion are given by the following equations. 
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ7.PNG?raw=true">
+</p>
+
+The right-hand side of each equation is already linear, so they can be substituted with f(z), where z is an array of the system state variables as follows.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ8.PNG?raw=true">
+</p>
+
+All system state variables are set to 0 for linearization. The linearized functions are in the following form.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ9.PNG?raw=true">
+</p>
+
+Solving for the terms of the linearized function for equation ten yields the linearized form of the first equation of motion.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ10.PNG?raw=true">
+</p>
+
+Solving for the terms of the linearized function for equation ten yields the linearized form of the first equation of motion.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ11.PNG?raw=true">
+</p>
+
+This process is repeated for the second equation of motion.
+
+<p align="center">
+  <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ12.PNG?raw=true">
+</p>
+
+-----
 The mechanical system was defined by the above schematic. A mathematical model was then developed to describe the system. Lagrangian methods were employed to develop the systems equation of motion.
 
 The first step in obtaining the system's equations of motion is to define the Lagrangian. As seen in the equations above, this is to be done by first quantifying the kinetic and potential energies of the system. The system's total kinetic energy is the summation of the kinetic energy of the pendulum arm rotating on its end, treated as a particle of mass <i>m</i><sub>1</sub> located at <i>l</i><sub>c</sub>, along with the kinetic energy of the wheel rotating around its center, of mass <i>m</i><sub>1</sub> translating a radius <i>l</i>. It should be noted that the wheel’s angular velocity, as measured by an observer fixed to the mounting table for the system, is <i>θ</i><sub>1</sub>+<i>θ</i><sub>2</sub>. The equations below define the system's total kinetic energy. 
