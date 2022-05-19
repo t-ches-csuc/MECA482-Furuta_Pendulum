@@ -64,11 +64,11 @@ The following table depicts definitions based on the above schematic for system 
 The mechanical system was defined by the above schematic. A mathematical model was then developed to describe the system. Lagrangian methods were employed to develop the systems equation of motion.
 
 <p align="center">
-  <img width="600" alt="MotionEq2" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%201.png">
+  <img width="600" alt="MotionEq1" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%201.png?raw=true">
 </p>
 
 <p align="center">
-  <img width="600" alt="MotionEq2" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%202.png">
+  <img width="600" alt="MotionEq2" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%202.png?raw=true">
 </p>
 
 The first step in obtaining the system's equations of motion is to define the Lagrangian. As seen in the equations above, this is to be done by first quantifying the kinetic and potential energies of the system. The system's total kinetic energy is the summation of the kinetic energy of the pendulum arm rotating on its end, treated as a particle of mass <i>m</i><sub>1</sub> located at <i>l</i><sub>c</sub>, along with the kinetic energy of the wheel rotating around its center, of mass <i>m</i><sub>1</sub> translating a radius <i>l</i>. It should be noted that the wheel’s angular velocity, as measured by an observer fixed to the mounting table for the system, is <i>θ</i><sub>1</sub>+<i>θ</i><sub>2</sub>. The equations below define the system's total kinetic energy. 
