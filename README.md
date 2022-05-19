@@ -323,6 +323,6 @@ w = 30;
 
 ## References
 
-[1] D. Dixon, “Shared Memory Plugin For VREP /Matlab Communication,” CopelliaSim. [Online]. Available: https://forum.coppeliarobotics.com/viewtopic.php?f=9&amp;t=4157&amp;hilit=simulink.
+[1] Vikash Gupta (2019). Full State Feedback of Furuta Pendulum (https://www.mathworks.com/matlabcentral/fileexchange/25585-full-state-feedback-of-furuta-pendulum), MATLAB Central File Exchange. Retrieved May 19, 2022.
 
 [2] Hernández-Guzmán Victor Manuel and Silva-Ortigoza Ramón, [Automatic control with experiments](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/references/RWP_Paper.pdf). Cham, Switzerland: Springer, 2019. 
