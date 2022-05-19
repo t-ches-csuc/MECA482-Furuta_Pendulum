@@ -163,7 +163,7 @@ In order to acquire the equations of motion in phase-variable form, Eqs. (11, 12
 Applying these relationships yields the vector-matrix form for the state space equation. The results can be seen below.
 
 <p align="center">
-  <img width="600" alt="vectorMatrix" src="https://user-images.githubusercontent.com/90480302/146618404-38d6b186-cb44-4bde-bd08-05a9c702c7b8.PNG">
+  <img width="600" alt="vectorMatrix" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Eq20&21.png?raw=true">
 </p>
 
 The final step in aquiring the complete state equation is to define the output equation. Given the context of the inertia wheel pendulum, the output equation is represented below. 
