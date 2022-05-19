@@ -182,14 +182,14 @@ No sensor calibration was necessary for implementation.
 
 In order to implement the equation of motion into CopelliaSIM and acheive the desired function, an appropriate controller architechture must be devised. To balance the system in the inverted upright position, the motor must act according to feedback from the encoder that tracks the degree of rotation of the pendulum arm.  
 
-The first controller used for simulation was a full-state feedback controller seen below in Figure 4.
+The control architecture was found from Gupta's implementation [1] in combination with Quanser manthematics. Architecture that was implemented is shown in the figure below.
 
 <p align="center">
   <img width="650" alt="feedbackController" src="images/ControlSchem.PNG">
 </p>
 
 <p align="center">  
-  <b>Figure 4</b>: Feedback controller architecture for inertia wheel pendulum.
+  <b>Figure 4</b>: Feedback controller architecture.
 </p>
 
 The step response associated with the controller in Figure 4 can be seen below.
