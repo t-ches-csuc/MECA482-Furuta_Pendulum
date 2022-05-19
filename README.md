@@ -42,7 +42,7 @@ Listed below are several key resources utilized by the team throughout the contr
 To appropriately model the system, a schematic diagram of the pendulum was used from Quanser[2]. This schematic defines the variables to be used in this system.
 
 <p align="center">
-  <img width="600" alt="System Schematic" src="QuanserSchematic.PNG">
+  <img width="600" alt="System Schematic" src="images/QuanserSchematic.PNG">
 </p>
 
 <p align="center">  
