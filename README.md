@@ -63,14 +63,6 @@ The following table depicts definitions based on the above schematic for system 
 
 The mechanical system was defined by the above schematic. A mathematical model was then developed to describe the system. Lagrangian methods were employed to develop the systems equation of motion.
 
-<p align="center">
-  <img width="600" alt="MotionEq1" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%201.png?raw=true">
-</p>
-
-<p align="center">
-  <img width="600" alt="MotionEq2" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%202.png?raw=true">
-</p>
-
 The first step in obtaining the system's equations of motion is to define the Lagrangian. As seen in the equations above, this is to be done by first quantifying the kinetic and potential energies of the system. The system's total kinetic energy is the summation of the kinetic energy of the pendulum arm rotating on its end, treated as a particle of mass <i>m</i><sub>1</sub> located at <i>l</i><sub>c</sub>, along with the kinetic energy of the wheel rotating around its center, of mass <i>m</i><sub>1</sub> translating a radius <i>l</i>. It should be noted that the wheel’s angular velocity, as measured by an observer fixed to the mounting table for the system, is <i>θ</i><sub>1</sub>+<i>θ</i><sub>2</sub>. The equations below define the system's total kinetic energy. 
 
 <p align="center">
@@ -101,7 +93,19 @@ In Eq.(9), the zero on the right hand side indicates that no external torque is 
   <img width="600" alt="appliedLagrange" src="https://user-images.githubusercontent.com/90480302/146616347-f57244a0-8d00-44ce-a71f-b25c83079763.PNG">
 </p>
 
-Utilizing the Euler-Lagrange approach, the above equations represent the fully-defined equations of motion for the inertia wheel pendulum.
+Utilizing the Euler-Lagrange approach, the above equations represent the fully-defined equations of motion for the inertia wheel pendulum. These are non-linear equations of motion, however, and must be linearized before being represented in a state space equation.
+
+<p align="center">
+  <img width="600" alt="define_z" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Eq3.png?raw=true>
+</p>
+
+<p align="center">
+  <img width="600" alt="MotionEq1" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%201.png?raw=true">
+</p>
+
+<p align="center">
+  <img width="600" alt="MotionEq2" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%202.png?raw=true">
+</p>
 
 **3. State Space Representation**
 
