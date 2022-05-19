@@ -195,7 +195,7 @@ The control architecture was found from Gupta's implementation [1] in combinatio
 The step response associated with the controller in Figure 4 can be seen below.
 
 <p align="center">
-  <img width="500" alt="feedbackResp" src="https://user-images.githubusercontent.com/90480302/146624322-3bf3fadf-bec4-4709-8746-da94581e074e.PNG">
+  <img width="500" alt="feedbackResp" src="images/response.PNG">
 </p>
 
 <p align="center">  
@@ -205,7 +205,7 @@ The step response associated with the controller in Figure 4 can be seen below.
 The pendulum was also modeled in CopelliaSim in the manner shown below. Unfortunately the simulation was not sucessfully implemented. 
 
 <p align="center">
-  <img width="343" alt="simStat" src="images/copelia">
+  <img width="343" alt="simStat" src="images/copelia.PNG">
 </p>
 
 <p align="center">  
