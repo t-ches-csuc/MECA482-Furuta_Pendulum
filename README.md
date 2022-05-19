@@ -133,55 +133,6 @@ This process is repeated for the second equation of motion.
 </p>
 
 -----
-The mechanical system was defined by the above schematic. A mathematical model was then developed to describe the system. Lagrangian methods were employed to develop the systems equation of motion.
-
-The first step in obtaining the system's equations of motion is to define the Lagrangian. As seen in the equations above, this is to be done by first quantifying the kinetic and potential energies of the system. The system's total kinetic energy is the summation of the kinetic energy of the pendulum arm rotating on its end, treated as a particle of mass <i>m</i><sub>1</sub> located at <i>l</i><sub>c</sub>, along with the kinetic energy of the wheel rotating around its center, of mass <i>m</i><sub>1</sub> translating a radius <i>l</i>. It should be noted that the wheel’s angular velocity, as measured by an observer fixed to the mounting table for the system, is <i>θ</i><sub>1</sub>+<i>θ</i><sub>2</sub>. The equations below define the system's total kinetic energy. 
-
-<p align="center">
-  <img width="600" alt="kineticEnergy" src="https://user-images.githubusercontent.com/90480302/146615154-0f53070d-ead6-45f1-bef2-c383fbee360b.PNG">
-</p>
-
-The final step in obtaining the system's Lagrangian equation is to define its potential energies. It has been assumed that when the angular position of the pendulum arm is 0 degrees (normal equlibrium state) the system's potential energy is 0 as well. The equations below define the potential energies within the system. 
-
-<p align="center">
-  <img width="600" alt="potentialEnergy" src="https://user-images.githubusercontent.com/90480302/146615755-2b5dcbc6-5e25-424d-b0e1-c74e90d5fd3b.PNG">
-</p>
-
-Finally, combining Eqs.(4, 5, 6, 7) into Eq.(1) yields the final definition of the Lagrangian for the system shown in Eq.(8) below.
-
-<p align="center">
-  <img width="600" alt="lagrange" src="https://user-images.githubusercontent.com/90480302/146615881-41abae30-16b6-40db-b338-a506901073cb.PNG">
-</p>
-
-In order to obtain the equation of motion for the system, the Lagrangian is implemented into the Euler-Lagrange equation for both interacting bodies which can be seen below.
-
-<p align="center">
-  <img width="600" alt="eulerLagrange" src="https://user-images.githubusercontent.com/90480302/146616205-954dcf85-ca81-436a-a0de-1e8c6d8a7895.PNG">
-</p>
-
-In Eq.(9), the zero on the right hand side indicates that no external torque is being applied to the pendulum at this point. Solving and simpflifying Eqs. (9, 10) yields the results below.
-
-<p align="center">
-  <img width="600" alt="appliedLagrange" src="https://user-images.githubusercontent.com/90480302/146616347-f57244a0-8d00-44ce-a71f-b25c83079763.PNG">
-</p>
-
-Utilizing the Euler-Lagrange approach, the above equations represent the fully-defined equations of motion for the inertia wheel pendulum. These are non-linear equations of motion, however, and must be linearized before being represented in a state space equation. A variable z is defined to describe the system state.
-
-<p align="center">
-  <img width="600" alt="define_z" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Eq3.png?raw=true"
-</p>
-
-All of the variables are set to zero for linearization. The function is converted to its linearized form and then each term is linearized with respect to its denominator.
-  
-<p align="center">
-  <img width="600" alt="MotionEq1" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%201.png?raw=true">
-</p>
-
-These steps are repeated for the function of the second equation of motion.
-
-<p align="center">
-  <img width="600" alt="MotionEq2" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%202.png?raw=true">
-</p>
 
 **3. State Space Representation**
 
