@@ -242,45 +242,58 @@ A video of the actual simulation can be seen [here](https://github.com/MECA482-R
 <p>
   
 ```
-clc, clear all, close all;
-% Define system matrices
-g = 9.81
-r = 0.5
-m1 = 2
-m2 = 1
-l = 1
-lc = 0.25*l
-mbar = m1*lc+m2*l
-J1 = (1/3)*m1*l^2
-J2 = (1/2)*m2*r^2
-A = [0 1 0; mbar*g/(J2*(1-m1*lc^2+m2*l^2+J1+J2)) 0 0; -mbar*g/(J2*(1-m1*lc^2+m2*l^2+J1+J2)) 0 0]
-B = [0; 1/J2+(m1*lc^2+m2*l^2+J1+J2)/(J2*(1-m1*lc^2+m2*l^2+J1+J2)); -(m1*lc^2+m2*l^2+J1+J2)/(J2*(1-m1*lc^2+m2*l^2+J1+J2))] 
-C = [1 0 0];
-D = 0;
-check1 = A(2,1)
-check2 = A(3,1)
-check3 = B(2,1)
-check4 = B(3,1)
-% Create state space object
-sys = ss(A,B,C,D);
-% Check open-loop eigenvalues
-E = eig(A);
-% Desired closed-loop eigenvalues
-P = [0, -0.5, -1.5];
-% Solve for K using pole placement
-K = place(A,B,P);
-% Check for closed-loop eigenvalues
-Acl = A-B*K;
-Ecl = eig(Acl);
-detAcl = det(Acl)
-% Closed-loop system
-syscl = ss(Acl, B, C, D);
-Kr = 1/dcgain(syscl);
-syscl_scaled = ss(Acl, B*Kr, C, D);
-% Step response of the system
-%step(syscl);
-step(syscl_scaled);
-%step(sys)
+%% List of parameters
+
+L_r = 0.36; %length of radial arm
+L_p = 0.58; %length of the pendulum
+m_p = 0.31; %mass of pendulum (kg)
+m_r = 0.53; %mass of the radial arm.
+B_p = 0.025; %damping of the pendulum.
+B_r = 0.01; %damping of the radial arm.
+fre = 0.1; %the frequency of the sin wave input
+
+J_r=((m_r+m_p)*L_r^2)/3;
+J_p=(m_p*L_p^2)/3;
+J_T=J_p*m_p*L_r^2+J_r*J_p+0.25*J_r*m_p*L_p^2;
+g=9.81; % gravity
+
+%% Matrices
+
+A=[0 0 1 0;
+   0 0 0 1;
+   0 0.25*m_p^2*L_p^2*L_r*g -(J_p+0.25*m_p*L_p^2)*B_r -0.5*m_p*L_p*L_r*B_p;
+   0 0.5*m_p*L_p*g*(J_r+m_p*L_r^2) 0.5*m_p*L_p*L_r*B_r -(J_r+m_p*L_r^2)*B_p];
+
+B=1/J_T*[0;0;J_p+0.25*m_p*L_p^2;0.5*m_p*L_p*L_r];
+
+C=[1 0 0 0;
+    0 1 0 0];
+D=[0;0;0;0];
+
+P=[-17.1 8.34 -2.87 0];
+
+K=acker(A,B,P);
+
+%tout=0:0.1:30;
+subplot(4,1,1)
+
+plot(tout,yout(:,1)*180/pi);grid on;
+xlabel('Time');ylabel('\alpha');
+
+subplot(4,1,2)
+
+plot(tout,yout(:,2)*180/pi);grid on;
+xlabel('Time');ylabel('\dot{\alpha}');
+
+subplot(4,1,3)
+
+plot(tout,yout(:,3)*180/pi);grid on;
+xlabel('Time');ylabel('\theta');
+
+subplot(4,1,4)
+
+plot(tout,yout(:,4)*180/pi);grid on;
+xlabel('Time');ylabel('\dot{\theta}');
   
 ```
 </p>
