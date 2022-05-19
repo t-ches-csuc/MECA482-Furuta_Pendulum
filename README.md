@@ -172,8 +172,6 @@ The final step in aquiring the complete state equation is to define the output e
   <img width="600" alt="outEq" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ22.png?raw=true">
 </p>
 
-A step-by-step documentation of the methodology surrounding the acquisition of the inertia wheel pendulum's state space equation can be found [here](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/images/482%20wheel%20clacs.pdf).
-
 ## Sensor Calibration
 
 No sensor calibration was necessary for implementation.
