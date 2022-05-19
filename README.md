@@ -1,5 +1,5 @@
 # Furuta Pendulum
-## MECA 482: *Keegan Penso, Tyler Chesney, Mohit Bhardwaj, Quincy Owyang*
+## MECA 482: *Keegan Penso, Tyler Chesney, Mohit Bhardwaj, Quincy Owyang, Jack Russo*
 
 ## Introduction
 **1. Background**
@@ -56,7 +56,7 @@ The following table depicts definitions based on the above schematic for system 
 </p>
 
 <p align="center">
-  [Table]
+  <img width="600" alt="Variable List" src"images/variables.PNG">
 </p>
 
 **2. Equation of Motion**
