@@ -169,7 +169,7 @@ Applying these relationships yields the vector-matrix form for the state space e
 The final step in aquiring the complete state equation is to define the output equation. Given the context of the inertia wheel pendulum, the output equation is represented below. 
 
 <p align="center">
-  <img width="600" alt="outEq" src="https://user-images.githubusercontent.com/90480302/146618604-b1e63ca3-328a-4412-8557-140237de8bcf.PNG">
+  <img width="600" alt="outEq" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ22.png?raw=true">
 </p>
 
 A step-by-step documentation of the methodology surrounding the acquisition of the inertia wheel pendulum's state space equation can be found [here](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/images/482%20wheel%20clacs.pdf).
