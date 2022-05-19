@@ -64,7 +64,7 @@ The following table depicts definitions based on the above schematic for system 
 The mechanical system was defined by the above schematic. A mathematical model was then developed to describe the system. Lagrangian methods were employed to develop the systems equation of motion.
 
 <p align="center">
-  <img width="600" alt="kineticEnergy" src="https://user-images.githubusercontent.com/90480302/146615154-0f53070d-ead6-45f1-bef2-c383fbee360b.PNG">
+  <img width="600" alt="kineticEnergy" src="[https://user-images.githubusercontent.com/90480302/146615154-0f53070d-ead6-45f1-bef2-c383fbee360b.PNG](https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/Motion_Eq%201.png)">
 </p>
 
 <p align="center">
