@@ -202,37 +202,15 @@ The step response associated with the controller in Figure 4 can be seen below.
   <b>Figure 5</b>: Step response of feedback controller.
 </p>
 
-A PID controller was also implemented and simulated. This controller tracks system error and regulates input accordingly - this architechture can be seen below.
+The pendulum was also modeled in CopelliaSim in the manner shown below. Unfortunately the simulation was not sucessfully implemented. 
 
 <p align="center">
-  <img width="750" alt="pidController" src="https://user-images.githubusercontent.com/90480302/146624478-6ae34b69-31a0-4939-a901-27603a386e88.PNG">
+  <img width="343" alt="simStat" src="images/copelia">
 </p>
 
 <p align="center">  
-  <b>Figure 6</b>: PID controller architecture for inertia wheel pendulum.
+  <b>Figure 8</b>: CopelliaSim model forthe Furuta Pendulum.
 </p>
-
-The step response associated with the controller in Figure 6 can be seen below.
-
-<p align="center">
-  <img width="500" alt="pidResp" src="https://user-images.githubusercontent.com/90480302/146624588-f44e83d4-cd4c-4f7f-810c-62c9129a5d72.PNG">
-</p>
-
-<p align="center">  
-  <b>Figure 7</b>: Step response for PID controller.
-</p>
-
-The inertia wheel pendulum was also modeled in CopelliaSIM. This model can be seen below.
-
-<p align="center">
-  <img width="343" alt="simStat" src="https://user-images.githubusercontent.com/90480302/146624826-d79bd112-6cdc-43ed-8cfa-220eb42fec73.PNG">
-</p>
-
-<p align="center">  
-  <b>Figure 8</b>: CopelliaSIM model for inertia wheel pendulum.
-</p>
-
-A video of the actual simulation can be seen [here](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/images/Meeting%20Controls%20-%2017%20December%202021%20(1).mp4).
 
 
 ## Appendix A: Simulation Code
