@@ -193,7 +193,7 @@ The control architecture was found from Gupta's implementation [1] in combinatio
 The step response associated with the controller in Figure 4 can be seen below.
 
 <p align="center">
-  <img width="500" alt="feedbackResp" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/response.png?raw=true">
+  <img width="800" alt="feedbackResp" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/response.png?raw=true">
 </p>
 
 <p align="center">  
