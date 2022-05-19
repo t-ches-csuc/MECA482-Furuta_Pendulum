@@ -185,7 +185,7 @@ In order to implement the equation of motion into CopelliaSIM and acheive the de
 The first controller used for simulation was a full-state feedback controller seen below in Figure 4.
 
 <p align="center">
-  <img width="650" alt="feedbackController" src="https://user-images.githubusercontent.com/90480302/146624082-fca687b2-3ede-4268-95b1-7834d677a035.PNG">
+  <img width="650" alt="feedbackController" src="image/ControlSchem">
 </p>
 
 <p align="center">  
