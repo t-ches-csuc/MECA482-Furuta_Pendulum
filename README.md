@@ -56,7 +56,7 @@ The following table depicts definitions based on the above schematic for system 
 </p>
 
 <p align="center">
-  <img width="600" alt="Variable List" src"images/variables.PNG">
+  <img width="600" alt="Variable List" src"/images/variables.PNG">
 </p>
 
 **2. Equation of Motion**
