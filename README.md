@@ -328,10 +328,3 @@ w = 30;
 [1] D. Dixon, “Shared Memory Plugin For VREP /Matlab Communication,” CopelliaSim. [Online]. Available: https://forum.coppeliarobotics.com/viewtopic.php?f=9&amp;t=4157&amp;hilit=simulink.
 
 [2] Hernández-Guzmán Victor Manuel and Silva-Ortigoza Ramón, [Automatic control with experiments](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/references/RWP_Paper.pdf). Cham, Switzerland: Springer, 2019. 
-
-[3] L. Arnesto, “Object hierarchy relations | Coppeliasim (V-rep),” YouTube, 31-Jan-2020. [Online]. Available: https://www.youtube.com/watch?v=HyqD140boOw. 
-
-[4] N. S. Nise, Control Systems Engineering. Wiley, 2015. 
-
-[5] O. D. Montoya and W. Gil-González, [“Nonlinear analysis and control of a reaction wheel pendulum: Lyapunov-based approach,”](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/references/automatic%20control%20with%20experiments.pdf) Engineering Science and Technology, 
-an International Journal, vol. 23, no. 1, pp. 21–29, 2020. 
