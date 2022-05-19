@@ -1,10 +1,10 @@
 # Furuta Pendulum
-## MECA 482: *Keegan Penso, Tyler Chesney, Mohit, Quincy, Jack*
+## MECA 482: *Keegan Penso, Tyler Chesney, Mohit Bhardwaj, Quincy Owyang*
 
 ## Introduction
 **1. Background**
 
-A Futura Pendulum is a simple Control Theroy learning tool. It is comprised of a rotating arm and a pendulum attached to the end. This project is a review of a developed full state feed back control model created in Simulink [1]. The model neglects friction, when considering the mass relative to the fricton of the bearings in the pendulum it is a good assumtion that the coefficient of friction is too small to significantly impact the model. A real system would include encoders for position feedback of the arms, this is achieved programmatically in the simulation.
+A Futura Pendulum is a simple Control Theroy learning tool. It is comprised of a rotating arm and a pendulum attached to the end. The model neglects friction, when considering the mass relative to the fricton of the bearings in the pendulum it is a good assumtion that the coefficient of friction is too small to significantly impact the model. A real system would include encoders for position feedback of the arms, this is achieved programmatically in the simulation.
 
 <p align="center">
 <img width="750" alt="operationalViewpoint" src="Functional Viewpoint.PNG">
@@ -39,7 +39,7 @@ Listed below are several key resources utilized by the team throughout the contr
 ## Modeling
 **1. Schematic**
 
-To appropriately model the system, a schematic diagram of the pendulum was developed.  
+To appropriately model the system, a schematic diagram of the pendulum was used from Quanser[2]. This schematic defines the variables to be used in this system.
 
 <p align="center">
   [IMAGE]
