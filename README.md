@@ -317,7 +317,7 @@ w = 30;
 
 ## Appendix B: Project Documents/Video
 
-- [**Presentation Slides**](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/presentationSlides.pdf)
+- [**Presentation Slides**](misc/furuta pendulum presentation.pdf)
 - [**Presentation Video**](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/images/482presentaion%20.mp4)
 - [**GitHub .pdf version**](https://github.com/MECA482-ReactionWheel/InertiaWheel/blob/main/GitHub.pdf)
 
