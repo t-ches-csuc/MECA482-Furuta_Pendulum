@@ -36,8 +36,6 @@ Listed below are several key resources utilized by the team throughout the contr
    - *Control System Engineering*: 7th Edition; Norman S. Nice
    - *Mathworks MATLAB Central*: Full State Feedback of Furuta Pendulum; Vikash Gupta
 
------
-
 ## Modeling
 **1. Schematic**
 
@@ -68,7 +66,6 @@ The following table depicts definitions based on the above schematic for system 
 <p align="center">
   <img width="600" alt="Motor Variable List" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/SRV02.PNG?raw=true">
 </p>
------
 
 **2. Equation of Motion**
 Equations of motion for the pendulum system are derived using the Lagrange method. Two equations of motion are required for the system, one that describes the motion of the arm and another that describes the motion of the pendulum with respect to motor voltage.
@@ -142,8 +139,6 @@ This process is repeated for the second equation of motion.
 <p align="center">
   <img width="600" alt="kineticEnergy" src="https://github.com/t-ches-csuc/MECA482-Furuta_Pendulum/blob/main/images/EQ12.PNG?raw=true">
 </p>
-
------
 
 **3. State Space Representation**
 
